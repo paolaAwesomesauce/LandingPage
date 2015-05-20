@@ -1,0 +1,64 @@
+body{
+	margin: 0px;
+	height:100%;
+}
+/*#menu{
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 70px;
+	height: 667px;
+	margin-right: 0px;
+	position: relative;
+	background-color: black;
+}*/
+#links{
+	font-family: 'Arya', sans-serif;
+	text-align: center;
+	color: white;
+}
+#left{
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 683px;
+	height: 667px;
+	background-image: url("https://download.unsplash.com/photo-1421757295538-9c80958e75b0");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin-right: 0px;
+	position: relative;
+	
+}
+#right{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	position: absolute;
+	width: 683px;
+	height: 667px;
+	background-image: url("http://subtlepatterns.com/patterns/congruent_outline.png");
+	/*background-color: #0A0A05;*/
+	color: white;
+	margin-left: 0px;
+}
+#opauq{
+	opacity: .3;
+	background-color: black;
+	width: 683px;
+	height: 667px;
+}
+#first-page{
+	text-align: center;
+	padding-top: 20px;
+}
+#title{
+	font-family: 'Arya', sans-serif;
+	font-size: 50px;
+}
+#para-one{
+	font-family: 'Arya', sans-serif;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
