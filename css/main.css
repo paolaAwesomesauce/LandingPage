@@ -2,21 +2,6 @@ body{
 	margin: 0px;
 	height:100%;
 }
-/*#menu{
-	display: inline-block;
-	vertical-align: top;
-	float: left;
-	width: 70px;
-	height: 667px;
-	margin-right: 0px;
-	position: relative;
-	background-color: black;
-}*/
-/*#links{
-	font-family: 'Arya', sans-serif;
-	text-align: center;
-	color: white;
-}*/
 #left{
 	display: inline-block;
 	vertical-align: top;
