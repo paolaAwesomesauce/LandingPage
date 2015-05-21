@@ -2,7 +2,7 @@
 	display: inline-block;
 	vertical-align: top;
 	float: left;
-	width: 683px;
+	width: 684px;
 	height: 667px;
 	background-image: url("https://download.unsplash.com/photo-1422433555807-2559a27433bd");
 	background-size: 100% 100%;
@@ -10,6 +10,12 @@
 	margin-right: 0px;
 	position: relative;
 	
+}
+#opauq{
+	opacity: .3;
+	background-color: black;
+	width: 683px;
+	height: 667px;
 }
 #page-two2{
 	display: inline-block;
@@ -23,12 +29,7 @@
 	color: white;
 	margin-left: 0px;
 }
-#opauq{
-	opacity: .3;
-	background-color: black;
-	width: 683px;
-	height: 667px;
-}
+
 #second-page{
 	text-align: center;
 	padding-top: 20px;

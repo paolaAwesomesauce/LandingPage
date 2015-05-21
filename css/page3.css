@@ -1,0 +1,82 @@
+#page-three1{
+	display: inline-block;
+	background-color: black;
+	width: 683px;
+	height: 667px;
+}
+#opauq{
+	opacity: .3;
+	background-color: black;
+	width: 683px;
+	height: 667px;
+}
+#page-three2{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	position: relative;
+	width: 665px;
+	height: 667px;
+	background-image: url("http://3.bp.blogspot.com/-7JPTFnS49nA/T5Y8KjLIoHI/AAAAAAAAALU/Llmx3KSIsG8/s1600/Always+Grey.png");
+	/*background-color: #0A0A05;*/
+	color: white;
+	margin-left: 0px;
+}
+#third-page{
+	text-align: center;
+	padding-top: 20px;
+}
+#T3{
+	font-family: 'Arya', sans-serif;
+	font-size: 50px;
+}
+#para-three{
+	font-family: 'Arya', sans-serif;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+	vertical-align: top;
+	float: left;
+	width: 684px;
+	height: 667px;
+	background-image: url("https://download.unsplash.com/photo-1428591501234-1ffcb0d6871f");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin-right: 0px;
+	position: relative;
+	
+}
+#opauq{
+	opacity: .3;
+	background-color: black;
+	width: 683px;
+	height: 667px;
+}
+#page-two2{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	position: relative;
+	width: 665px;
+	height: 667px;
+	background-image: url("http://graphicslava.com/wp-content/uploads/2013/02/Subtle-Patterns-Free-textures-for-your-next-web-project.png");
+	/*background-color: #0A0A05;*/
+	color: white;
+	margin-left: 0px;
+}
+
+#second-page{
+	text-align: center;
+	padding-top: 20px;
+}
+#T2{
+	font-family: 'Arya', sans-serif;
+	font-size: 50px;
+}
+#para-two{
+	font-family: 'Arya', sans-serif;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
