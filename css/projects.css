@@ -1,0 +1,23 @@
+body{
+	background-image: url("http://www.wall-library.com/media/gbu0/prodxl/WINDMILL002.jpg");
+}
+.container{
+	width: 900px;
+	height: 500px;
+	margin-top: 80px;
+	margin-left: 255px;
+	background: #f1f1f1;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#TP{
+	font-family: 'Arya', sans-serif;
+	font-size: 50px;
+}
+#para-projects{
+	font-family: 'Arya', sans-serif;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}

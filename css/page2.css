@@ -3,7 +3,7 @@
 	vertical-align: top;
 	float: left;
 	width: 684px;
-	height: 667px;
+	height: 680px;
 	background-image: url("https://download.unsplash.com/photo-1422433555807-2559a27433bd");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -11,11 +11,11 @@
 	position: relative;
 	
 }
-#opauq{
+#opauq2{
 	opacity: .3;
 	background-color: black;
 	width: 683px;
-	height: 667px;
+	height: 680px;
 }
 #page-two2{
 	display: inline-block;
@@ -23,7 +23,7 @@
 	float: right;
 	position: relative;
 	width: 665px;
-	height: 667px;
+	height: 680px;
 	background-image: url("http://graphicslava.com/wp-content/uploads/2013/02/Subtle-Patterns-Free-textures-for-your-next-web-project.png");
 	/*background-color: #0A0A05;*/
 	color: white;
