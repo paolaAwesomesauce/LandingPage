@@ -45,3 +45,20 @@
 	padding-right: 30px;
 }
 
+#projects{
+	color: white;
+	text-decoration: underline;
+}
+#projects:hover { 
+	color: purple;
+	text-decoration: underline;
+}
+
+#projects2{
+	color: white;
+	text-decoration:none;
+}
+#projects2:hover { 
+	color: purple;
+	text-decoration:none;
+}

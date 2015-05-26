@@ -48,12 +48,12 @@ body{
 	padding-right: 30px;
 }
 
-a { 
+#readMore { 
 	color:white; 
-	text-decoration: underline;
+	text-decoration: none;
 }
 	
-a:hover { 
+#readMore:hover { 
 	color: purple;
 	text-decoration:none;
 }
