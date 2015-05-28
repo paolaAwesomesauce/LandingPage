@@ -1,0 +1,47 @@
+@media (max-width: 375px){
+	.container{
+		width: 275px;
+		height: 820px;
+		margin-top: 70px;
+		margin-bottom: 70px;
+		margin-left: 40px;
+		margin-right: 50px;
+		background: #f1f1f1;
+		text-align: center;
+		padding-top: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#TP{
+		font-family: 'Arya', sans-serif;
+		font-size: 50px;
+	}
+
+	#todo{
+		font-family: 'Arya', sans-serif;
+		text-align: center;
+		margin-left: 35px;
+	}
+	#insta{
+		font-family: 'Arya', sans-serif;
+		text-align: center;
+		margin-right: 35px;
+	}
+
+	#para-projects{
+		font-family: 'Arya', sans-serif;
+		text-align: center;
+		margin-top: 600px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	#pic1{
+		width: 200px;
+	}
+	#pic2{
+		width: 200px;
+	}
+
+}
