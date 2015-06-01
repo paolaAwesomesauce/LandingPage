@@ -1,4 +1,33 @@
-#a {
+#a1 {
+  
+/*  styling */
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+	letter-spacing: 5px;
+	color: #FAFAFA;
+	border: 3px solid #FAFAFA;
+	padding: 25px;
+  
+
+/*  centering */
+	position: absolute;
+	text-align: center;
+	margin-top: 155px;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	background: rgba(0,0,0,0.5);
+	@include fade-transition(background);
+
+	&:hover {
+		background: rgba(8,97,76,0.6);
+	}
+}
+
+#a2 {
   
 /*  styling */
   display: inline-block;

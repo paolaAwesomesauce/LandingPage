@@ -28,7 +28,7 @@
 			<p id="para-one">
 				Messenger bag Pinterest wayfarers, butcher ethical fap narwhal tote bag. Tilde pour-over art party Pitchfork PBR. 8-bit polaroid Marfa master cleanse meggings cred letterpress cronut food truck. Irony swag narwhal Brooklyn tilde dreamcatcher stumptown biodiesel fap plaid. Cardigan Helvetica single-origin coffee retro literally Shoreditch. Occupy flexitarian meggings church-key, kale chips American Apparel beard cardigan. Fanny pack synth authentic, crucifix readymade kale chips salvia normcore actually Pitchfork cliche Odd Future.
 			</p>
-			<button type="submit" id="a" >
+			<button type="submit" id="a1" >
 				<a href="#portfolio" id="readMore">READ MORE</a>
 				<i></i>
 			</button>
@@ -37,7 +37,7 @@
 	</div>
 
 	<!-- SECOND PAGE -->
-	<!-- <div id="page2">
+	<div id="page2">
 	<a id="portfolio"></a>
 	<section id="page-two1">
 		<div id="opauq2">
@@ -50,16 +50,16 @@
 				Accsess my projects <a href="projects.html" id="projects">here</a>
 				Messenger bag Pinterest wayfarers, butcher ethical fap narwhal tote bag. Tilde pour-over art party Pitchfork PBR. 8-bit polaroid Marfa master cleanse meggings cred letterpress cronut food truck. Irony swag narwhal Brooklyn tilde dreamcatcher stumptown biodiesel fap plaid. Cardigan Helvetica single-origin coffee retro literally Shoreditch. Occupy flexitarian meggings church-key, kale chips American Apparel beard cardigan. Fanny pack synth authentic, crucifix readymade kale chips salvia normcore actually Pitchfork cliche Odd Future.
 			</p>
-		</div>
-		<button type="submit" id="a" >
-			<a href="#contact" id="projects2">CONTACT ME</a>
+			<button type="submit" id="a2" >
+				<a href="#contact" id="projects2">CONTACT ME</a>
 			<i></i>
 		</button>
+		</div>
 	</section>
 	</div>
- -->
+ 
 	<!-- THIRD PAGE -->
-	<!-- <div id="page3">
+	<div id="page3">
   	<a id="contact"></a>
 	<section id="page-three">
 		<div class="container">
@@ -79,55 +79,6 @@
 		</div>
 	</section>
 	</div>
- -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-                $(".contactLink").click(function(){
-                    if ($("#contactForm").is(":hidden")){
-                        $("#contactForm").slideDown("slow");
-                    }
-                    else{
-                        $("#contactForm").slideUp("slow");
-                    }
-                });
-            });
-            function closeForm(){
-                $("#messageSent").show("slow");
-                setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 2000);
-           }
-
-$(document).ready(function() {
-  function filterPath(string) {
-    return string
-      .replace(/^\//,'')
-      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-      .replace(/\/$/,'');
-  }
-  $('a[href*=#]').each(function() {
-    if ( filterPath(location.pathname) == filterPath(this.pathname)
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-         $(this).click(function() {
-           $('html, body').animate({scrollTop: targetOffset}, 1000);
-           var d = document.createElement("div");
-        d.style.height = "101%";
-        d.style.overflow = "hidden";
-        document.body.appendChild(d);
-        window.scrollTo(0,scrollToM);
-        setTimeout(function() {
-        d.parentNode.removeChild(d);
-            }, 10);
-           return false;
-         });
-      }
-    }
-  });
-});
-</script>
+	
 </body>
 </html>
